@@ -1,0 +1,75 @@
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background:url(hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.container{ 
+    position: absolute;
+    border: 2px;
+    width: 50%;
+    height: fit-content;
+    margin-left: 50%;
+    text-align: center;
+ 
+}
+#heading{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(63, 9, 77);
+   
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(106, 62, 117);
+    border-radius: 15px;
+    outline: none;
+    font-size: 19px;
+}
+button{
+  width: 70px;
+  height: 40px;
+  background-color:  rgb(106, 62, 117);
+  color: white;
+  border-radius: 17px;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+#del{
+    width: 90px;
+    height: 40px;
+    background-color:  rgb(106, 62, 117);
+    color: white;
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+  
+  }
+.text ul{
+    position: relative;
+    color: rgb(63, 9, 77);
+    font-size: 19px;
+    text-align: left;
+}
+.text ul i{
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+}
+
+
+.delete-icon {
+    margin-right: 30px;
+}
+
+
